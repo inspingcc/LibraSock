@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceHandlers>
+	<!-- add your ServiceHandlers -->
+	<ServiceHandler orderCode="0x00000001" protocolClass="com.insping.libra.net.proto.ReqRegist$RegistData" handlerClass="com.insping.libra.net.handler.imp.RegistHandler" function="注册请求"/>
+	<ServiceHandler orderCode="0x00000002" protocolClass="com.insping.libra.net.proto.ReqLogin$LoginData" handlerClass="com.insping.libra.net.handler.imp.LoginHandler" function="登录请求"/>
+	<ServiceHandler orderCode="0x00000003" protocolClass="com.insping.libra.net.proto.ReqChatSendMessage$ChatSendMessageData" handlerClass="com.insping.libra.net.handler.imp.ChatSendMessageHandler" function="发送消息"/>
+</ServiceHandlers>

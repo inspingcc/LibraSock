@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModuleTypes>
+	<!-- 普通消息 -->
+	<ModuleType moduleId="0x00000001" moduleClass="com.insping.libra.net.proto.ResGeneral$GeneralData" function="普通消息模块"/>
+	<!-- 常用模块消息 -->
+	<ModuleType moduleId="0x00000002" moduleClass="com.insping.libra.net.proto.ResUserInfo$UserInfoData" function="用户模块消息"/>
+	<!-- 聊天消息模块 -->
+	<ModuleType moduleId="0x00000003" moduleClass="com.insping.libra.net.proto.ResChatRevMessage$ChatRevMessageData" function="聊天消息模块"/>
+</ModuleTypes>
